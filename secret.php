@@ -5,8 +5,8 @@ if(!isset($_SESSION['user_id'])) {
     echo '<a href="index.php">Log in or Register</a>';
     }else
     {
-        echo ("<h3>Welcome to my Nightmare<h3><br>"); 
-        echo '<img src="frustration.jpg">'; 
+        echo ("<h1>Welcome to my Nightmare<h1><br>"); 
+        echo '<img src="frustration.jpg"><br><br>'; 
         echo '<a href="logout.php">Logout</a>';
     }
 ?>
